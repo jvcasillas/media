@@ -1,7 +1,9 @@
 
 # Media
 
-Assorted gifs and memes related to R, stats, and linguistics.
+Assorted gifs and memes related to R, stats, linguistics, and
+teaching.  
+Last update: 2018-10-09
 
 ``` r
 academicWriteR::print_dir_ul(".", nested = T, remove = ".Rproj|README")
