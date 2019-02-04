@@ -2,7 +2,7 @@
 Linguistics media
 =================
 
-Last update: 2019-01-29
+Last update: 2019-02-04
 
 ``` r
 academicWriteR::print_dir_ul(".", nested = T, remove = ".Rproj|README")
@@ -32,6 +32,7 @@ academicWriteR::print_dir_ul(".", nested = T, remove = ".Rproj|README")
     -   phonemes\_common.png
     -   phonetics\_allphone.png
     -   phonetics\_exceptional\_hiatus.png
+    -   phonetics\_grapheme\_phoneme\_correspondence.png
     -   phonetics\_ipa.png
     -   phonetics\_orthography.png
     -   phonetics\_orthography1.png
