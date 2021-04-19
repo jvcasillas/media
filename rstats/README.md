@@ -1,7 +1,7 @@
 
 # Rstats media
 
-Last update: 2021-02-23
+Last update: 2021-04-19
 
 ``` r
 academicWriteR::print_dir_ul(".", nested = T, remove = ".Rproj|README")
@@ -15,7 +15,7 @@ academicWriteR::print_dir_ul(".", nested = T, remove = ".Rproj|README")
     -   bayesian\_likelihoods.png
     -   bayesian\_priors.png
     -   lm\_additive\_effects.png
-    -   lm\_assumptions.jpg
+    -   lm\_assumptions.png
     -   lm\_ballantine.png
     -   lm\_correlation\_not\_causation.png
     -   lm\_correlation.png
@@ -45,7 +45,8 @@ academicWriteR::print_dir_ul(".", nested = T, remove = ".Rproj|README")
     -   rstats\_bargraphs.png
     -   rstats\_bimodal\_distribution.png
     -   rstats\_case\_when.png
-    -   rstats\_ci.png
+    -   rstats\_ci\_1.JPG
+    -   rstats\_ci\_2.png
     -   rstats\_cult.png
     -   rstats\_distributions.png
     -   rstats\_effect\_sizes.png

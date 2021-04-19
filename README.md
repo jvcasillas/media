@@ -3,7 +3,7 @@
 
 Assorted gifs and memes related to R, stats, linguistics, and
 teaching.  
-Last update: 2021-02-23
+Last update: 2021-04-19
 
 ``` r
 academicWriteR::print_dir_ul(".", remove = ".Rproj|README")
