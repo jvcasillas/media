@@ -6,16 +6,16 @@ teaching.
 Last update: 2023-01-31
 
 ``` r
-academicWriteR::print_dir_ul(".", remove = ".Rproj|README")
+fs::dir_ls(regex = "^[^.]*$") |>
+  tibble::as_tibble() |>
+  dplyr::mutate(value = glue::glue("- [{value}](./{value}/README.md)")) |>
+  dplyr::pull()
 ```
 
-- datascience
-- general
-- linguistics
-- logic
-- media.Rproj
-- README.md
-- README.Rmd
-- rstats
-- teaching
-- unsorted
+- [datascience](./datascience/README.md)
+- [general](./general/README.md)
+- [linguistics](./linguistics/README.md)
+- [logic](./logic/README.md)
+- [rstats](./rstats/README.md)
+- [teaching](./teaching/README.md)
+- [unsorted](./unsorted/README.md)
