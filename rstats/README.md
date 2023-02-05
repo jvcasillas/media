@@ -1,7 +1,9 @@
 
 # Rstats media
 
-Last update: 2023-01-31
+Last update: 2023-02-05
+
+## Memes
 
 ``` r
 fs::dir_ls(path = here::here("rstats", "memes")) |>
@@ -15,6 +17,7 @@ fs::dir_ls(path = here::here("rstats", "memes")) |>
   dplyr::pull()
 ```
 
+- [baes_theorem](./memes/baes_theorem.png)
 - [bayes_cult](./memes/bayes_cult.png)
 - [bayesian_bayes_theorem](./memes/bayesian_bayes_theorem.png)
 - [bayesian_bayes_theorem_desc](./memes/bayesian_bayes_theorem_desc.png)
@@ -36,11 +39,12 @@ fs::dir_ls(path = here::here("rstats", "memes")) |>
 - [lm_logistic_regression](./memes/lm_logistic_regression.png)
 - [lm_mem](./memes/lm_mem.png)
 - [lm_office](./memes/lm_office.png)
-- [lm_ols.PNG](./memes/lm_ols.PNG)
+- [lm_ols](./memes/lm_ols.png)
 - [lm_overfitting](./memes/lm_overfitting.png)
 - [lm_predictors1](./memes/lm_predictors1.png)
 - [lm_predictors2](./memes/lm_predictors2.png)
 - [lm_simpson](./memes/lm_simpson.png)
+- [lm_tellmey](./memes/lm_tellmey.png)
 - [lm_vs_dl](./memes/lm_vs_dl.png)
 - [os_heartbreak](./memes/os_heartbreak.png)
 - [os_replication_types](./memes/os_replication_types.png)
@@ -83,6 +87,7 @@ fs::dir_ls(path = here::here("rstats", "memes")) |>
 - [rstats_nhst3](./memes/rstats_nhst3.png)
 - [rstats_pop_v\_sample](./memes/rstats_pop_v_sample.png)
 - [rstats_pvalues](./memes/rstats_pvalues.png)
+- [rstats_pvalues_wrong](./memes/rstats_pvalues_wrong.png)
 - [rstats_r\_vs_rstudio](./memes/rstats_r_vs_rstudio.png)
 - [rstats_regular_expressions](./memes/rstats_regular_expressions.png)
 - [rstats_reprex](./memes/rstats_reprex.png)
@@ -97,3 +102,20 @@ fs::dir_ls(path = here::here("rstats", "memes")) |>
 - [rstats_vision](./memes/rstats_vision.png)
 - [rstats_what_people_do](./memes/rstats_what_people_do.png)
 - [rstats_workflow](./memes/rstats_workflow.png)
+
+## Gifs
+
+``` r
+fs::dir_ls(path = here::here("rstats", "gifs")) |>
+  tibble::as_tibble() |>
+  dplyr::mutate(
+    name = stringr::str_remove(value, here::here("rstats", "gifs/")), 
+    name = stringr::str_remove(name, ".gif"),
+    value = stringr::str_remove(value, here::here("rstats")), 
+    path = glue::glue("- [{name}](.{value})")
+    ) |>
+  dplyr::pull()
+```
+
+- [bayes_theorem](./gifs/bayes_theorem.gif)
+- [tables_improve](./gifs/tables_improve.gif)
