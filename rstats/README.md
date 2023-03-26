@@ -1,7 +1,7 @@
 
 # Rstats media
 
-Last update: 2023-02-05
+Last update: 2023-03-26
 
 ## Memes
 
@@ -46,6 +46,7 @@ fs::dir_ls(path = here::here("rstats", "memes")) |>
 - [lm_simpson](./memes/lm_simpson.png)
 - [lm_tellmey](./memes/lm_tellmey.png)
 - [lm_vs_dl](./memes/lm_vs_dl.png)
+- [os_filedrawer](./memes/os_filedrawer.png)
 - [os_heartbreak](./memes/os_heartbreak.png)
 - [os_replication_types](./memes/os_replication_types.png)
 - [osrrl_data_scientist](./memes/osrrl_data_scientist.png)
@@ -53,6 +54,8 @@ fs::dir_ls(path = here::here("rstats", "memes")) |>
 - [ossrl_registered_reports](./memes/ossrl_registered_reports.png)
 - [philosophy_of_science_aristotle_socrates](./memes/philosophy_of_science_aristotle_socrates.png)
 - [philosophy_of_science_stats](./memes/philosophy_of_science_stats.png)
+- [philosophy_of_science_summary](./memes/philosophy_of_science_summary.png)
+- [philosophy_of_science_summary_long](./memes/philosophy_of_science_summary_long.png)
 - [power](./memes/power.png)
 - [r_compare](./memes/r_compare.png)
 - [r_tidy_verbs](./memes/r_tidy_verbs.png)

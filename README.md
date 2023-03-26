@@ -3,7 +3,7 @@
 
 Assorted gifs and memes related to R, stats, linguistics, and
 teaching.  
-Last update: 2023-01-31
+Last update: 2023-03-26
 
 ``` r
 fs::dir_ls(regex = "^[^.]*$") |>
