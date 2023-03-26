@@ -1,7 +1,7 @@
 
 # Data science media
 
-Last update: 2023-02-05
+Last update: 2023-03-26
 
 ## img
 
@@ -20,3 +20,4 @@ fs::dir_ls(path = here::here("datascience", "img")) |>
 - [github](./img/github.png)
 - [os_datasharing](./img/os_datasharing.png)
 - [os_rr](./img/os_rr.png)
+- [workflow_8.jpg](./img/workflow_8.jpg)
