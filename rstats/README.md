@@ -1,7 +1,7 @@
 
 # Rstats media
 
-Last update: 2023-03-26
+Last update: 2023-04-24
 
 ## Memes
 
@@ -33,6 +33,7 @@ fs::dir_ls(path = here::here("rstats", "memes")) |>
 - [lm_dummy_variables](./memes/lm_dummy_variables.png)
 - [lm_family_deaths](./memes/lm_family_deaths.png)
 - [lm_general](./memes/lm_general.png)
+- [lm_glm_glmm_cats](./memes/lm_glm_glmm_cats.png)
 - [lm_interactions](./memes/lm_interactions.png)
 - [lm_linguistic_pedantry](./memes/lm_linguistic_pedantry.png)
 - [lm_log_function](./memes/lm_log_function.png)
