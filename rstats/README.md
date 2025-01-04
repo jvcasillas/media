@@ -1,7 +1,7 @@
 
 # Rstats media
 
-Last update: 2023-04-24
+Last update: 2025-01-04
 
 ## Memes
 
@@ -17,8 +17,8 @@ fs::dir_ls(path = here::here("rstats", "memes")) |>
   dplyr::pull()
 ```
 
-- [baes_theorem](./memes/baes_theorem.png)
 - [bayes_cult](./memes/bayes_cult.png)
+- [bayes_theorem](./memes/bayes_theorem.png)
 - [bayesian_bayes_theorem](./memes/bayesian_bayes_theorem.png)
 - [bayesian_bayes_theorem_desc](./memes/bayesian_bayes_theorem_desc.png)
 - [bayesian_bey](./memes/bayesian_bey.png)
@@ -92,10 +92,10 @@ fs::dir_ls(path = here::here("rstats", "memes")) |>
 - [rstats_nhst1](./memes/rstats_nhst1.png)
 - [rstats_nhst2](./memes/rstats_nhst2.png)
 - [rstats_nhst3](./memes/rstats_nhst3.png)
-- [rstats_pop_v\_sample](./memes/rstats_pop_v_sample.png)
+- [rstats_pop_v_sample](./memes/rstats_pop_v_sample.png)
 - [rstats_pvalues](./memes/rstats_pvalues.png)
 - [rstats_pvalues_wrong](./memes/rstats_pvalues_wrong.png)
-- [rstats_r\_vs_rstudio](./memes/rstats_r_vs_rstudio.png)
+- [rstats_r_vs_rstudio](./memes/rstats_r_vs_rstudio.png)
 - [rstats_regular_expressions](./memes/rstats_regular_expressions.png)
 - [rstats_reprex](./memes/rstats_reprex.png)
 - [rstats_rmd](./memes/rstats_rmd.png)
